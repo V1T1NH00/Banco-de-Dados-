@@ -1,0 +1,16 @@
+use sucos;
+
+update tbcreate set NOME = 'Victor Silva' where CPF = '19290992743';
+update tbcreate set BAIRRO = 'Itaquera' where CPF = '19290992743';
+update tbcreate set CIDADE = 'Sao Paulo' where CPF = '19290992743';
+update tbcreate set ESTADO = 'SP' where CPF = '19290992743';
+
+
+select * from tbcreate;
+
+
+update tbproduto set nome = 'Light - 350ml - Laranja',sabor ='Laranja',
+ PRECO_LISTA = 6.555 where produto ='1040107';
+
+
+select * from tbproduto;
