@@ -1,0 +1,20 @@
+Use sucos;
+
+
+select CPF FROM tbcreate order by CPF;
+
+select CPF,estado from tbcreate where ESTADO = 'RJ';
+select * from tbcreate where cidade = 'Sao paulo';
+select cpf, bairro from tbcreate order by CPF DESC;
+Select cpf,bairro from tbcreate order by cpf, bairro DESC;
+
+select * from tbcreate where idade > 18;
+select * from tbcreate where idade < 18;
+select * from tbcreate where DATA_NASCIMENTO = '1995-01-13'; 
+select * from tbcreate where DATA_NASCIMENTO <= '1995-01-13';
+select * from tbcreate where DATA_NASCIMENTO >= '1995-01-13';
+select * from tbcreate where DATA_NASCIMENTO <> '1995-01-13';
+
+
+
+select * from tbcreate;
