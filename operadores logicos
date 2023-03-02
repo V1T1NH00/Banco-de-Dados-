@@ -1,0 +1,9 @@
+use sucos;
+
+select * from tbcreate CPF where (ESTADO = 'RJ') AND ( DATA_NASCIMENTO >= 2000-02-12);
+select * from tbcreate CPF where (ESTADO = 'RJ') or ( DATA_NASCIMENTO >= 2000-02-12);
+select * from tbcreate where not (CIDADE = 'Rio de Janeiro');
+
+
+
+select * from tbcreate where LIMITE_CREDITO between 90000 and 120000;
