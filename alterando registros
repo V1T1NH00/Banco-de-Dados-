@@ -12,5 +12,6 @@ select * from tbcreate;
 update tbproduto set nome = 'Light - 350ml - Laranja',sabor ='Laranja',
  PRECO_LISTA = 6.555 where produto ='1040107';
 
+alter table tbcreate add FILHOS smallint;
 
 select * from tbproduto;
